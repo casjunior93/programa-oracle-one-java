@@ -1,0 +1,10 @@
+//interface é uma classe abstrata com todos os metodos abstratos
+
+public abstract class Autenticavel {
+	
+	//metodos abstratos não tem implementação
+	public abstract void setSenha(int senha);
+
+	public abstract boolean autentica(int senha);
+
+}

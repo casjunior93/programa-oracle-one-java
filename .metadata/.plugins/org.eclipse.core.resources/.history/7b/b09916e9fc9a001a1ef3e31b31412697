@@ -1,0 +1,18 @@
+
+public class testeReferencias {
+	public static void main(String[] args) {
+		//Conta é um objeto
+		//primeiraConta é uma referência
+		//Com new, crio um objeto Conta que é referenciada por primeiraConta ao arquivo Conta.java
+		Conta primeiraConta = new Conta();
+		primeiraConta.saldo = 300;
+		
+		System.out.println("Saldo: " + primeiraConta.saldo);
+		
+		Conta segundaConta = primeiraConta;
+		
+		System.out.println("Saldo 2: " + segundaConta.saldo);
+		
+		
+	}
+}

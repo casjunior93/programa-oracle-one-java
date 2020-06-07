@@ -1,0 +1,16 @@
+//interface é uma classe abstrata com todos os metodos abstratos
+//não pode nada concreto
+//contrato Autenticavel
+	//quem assina esse contrato precisa implementar
+		//metodo setSenha
+		//meetodo autentica
+//contrato que define obrigações
+
+public abstract interface Autenticavel {
+	
+	//metodos abstratos não tem implementação
+	public abstract void setSenha(int senha);
+
+	public abstract boolean autentica(int senha);
+
+}

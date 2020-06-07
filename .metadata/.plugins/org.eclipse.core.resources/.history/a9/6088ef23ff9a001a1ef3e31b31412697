@@ -1,0 +1,8 @@
+//Especificação - atributos
+//Com new, cria objetos a partir daqui e atribui 0 aos valores
+public class Conta{
+	double saldo;
+	int agencia;
+	int numero;
+	String titular;
+}

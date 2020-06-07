@@ -1,0 +1,26 @@
+
+//quando se assina um contrato de interface, não se usa extends, usa-se implements
+public class Cliente implements Autenticavel {
+	//obrigação implementar metodos da interface
+	
+	private int senha;
+	private AutenticacaoUtil util;
+	
+	public Cliente() {
+		this.util = new AutenticacaoUtil();
+	}
+
+	@Override
+	public void setSenha(int senha) {
+		this.senha = senha;		
+	}
+
+	@Override
+	public boolean autentica(int senha) {
+		if(this.senha == senha) {
+			return true;
+		} else {
+			return false;			
+		}
+	}	
+}

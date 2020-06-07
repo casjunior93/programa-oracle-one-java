@@ -1,0 +1,6 @@
+
+public class CalculadorImposto {
+	public void registra(Tributavel t) {
+		double valor = t.getValorImposto();
+	}
+}

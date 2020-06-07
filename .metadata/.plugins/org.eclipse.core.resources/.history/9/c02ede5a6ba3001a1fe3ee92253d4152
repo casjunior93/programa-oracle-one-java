@@ -1,0 +1,7 @@
+
+public class testeFuncionario {
+	public static void main(String[] args) {
+		//cria um funcionario chamando um construtor
+		Funcionario carlos = new Funcionario();
+	}
+}

@@ -1,0 +1,13 @@
+//gerente herda da classe funcionario
+public class Gerente extends Autenticavel {
+	
+	//public - modificador de visibilidade
+	//pode-se criar um get mesmo sem ter um atributo relacioado
+	public double getBonificacao() {
+		//reescrita de metodo da cl. mãe na classe filho
+		//precisa ver a classe mãe para encontrar o atributo
+		System.out.println("Gerente");
+		//return super.getBonificacao() + super.getSalario();
+		return super.getSalario();
+    }
+}

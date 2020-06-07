@@ -1,0 +1,99 @@
+//Especificação - atributos
+//Com new, cria objetos a partir daqui e atribui 0 aos valores
+public class Conta{
+	//nao pode ser lido, nem modificado, a não ser pelos metodos da propria classe
+	private double saldo;
+	private int agencia;
+	private int numero;
+	//String
+	private Cliente titular;
+	//com static, total é da classe e não do objeto
+	private static int total = 0;
+	//rotina de inicialização - executa uma única vez; pode recer parametros
+	
+//	public Conta() {
+//		
+//	}
+	
+	public Conta(int agencia, int numero) {
+		Conta.total ++;
+		System.out.println("O total de contas é: " + Conta.total);
+		this.agencia = agencia;
+		this.numero = numero;
+		System.out.println("Criação de conta");
+	}
+	
+	//comportamentos - maneiras de depositar dinheiro na conta
+	//void - não retorna nada
+	public boolean deposita(double valor) {
+		//this - referencia ao objeto que invocou
+		this.saldo += valor;
+		System.out.println("O valor de " + valor + " foi depositado com sucesso!");
+		return true;
+	}
+	
+	//retorna algo
+	public boolean saca(double valor) {
+		//se o saldo desta conta
+		if(this.saldo >= valor) {
+			this.saldo -= valor;
+			return true;
+		} else {
+			System.out.println("Não tem dinheiro para sacar");
+			return false;
+		}
+	}
+	
+	public boolean transfere(double valor, Conta destino) {
+		if(this.saldo >= valor) {
+			this.saldo -= valor;
+			destino.deposita(valor);
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	//metodo getter - pegar algo privado
+	public double pegaSaldo() {
+		return this.saldo;
+	}
+	
+	public int getNumero() {
+		return this.numero;
+	}
+	
+	public void setNumero(int numero) {
+		if (numero <= 0) {
+			System.out.println("Não existem números de contas com valores negativos");
+			return;
+		}
+		this.numero = numero;
+	}
+	
+	public int getAgencia() {
+		return this.agencia;
+	}
+	
+	public void setAgencia(int agencia) {
+		if(agencia <= 0) {
+			System.out.println("Não existem números de agências com valores negativos");
+		}
+		this.agencia = agencia;
+	}
+	
+	public void setTitular(Cliente titular) {
+		this.titular = titular;
+	}
+	
+	public Cliente getTitular() {
+		return titular;
+	}
+	
+	public static int getTotal() {
+		return Conta.total;
+	}
+}
+
+
+

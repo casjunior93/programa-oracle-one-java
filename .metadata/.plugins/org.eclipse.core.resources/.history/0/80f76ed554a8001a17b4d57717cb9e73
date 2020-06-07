@@ -1,0 +1,4 @@
+//ideia de interface vem das configurações das placas de rede
+public interface Tributavel {
+
+}

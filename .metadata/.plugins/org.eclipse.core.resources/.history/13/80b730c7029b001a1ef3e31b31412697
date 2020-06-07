@@ -1,0 +1,15 @@
+
+public class testaMetodo {
+	public static void main(String[] args) {
+		Conta contaDoCarlos = new Conta();
+		contaDoCarlos.deposita(520);
+		System.out.println(contaDoCarlos.saldo);
+		contaDoCarlos.deposita(520);
+		System.out.println(contaDoCarlos.saldo);
+		
+		boolean conseguiuRetirar =  contaDoCarlos.saca(200);
+		System.out.println(contaDoCarlos.saldo);
+		System.out.println(conseguiuRetirar);
+		
+	}
+}

@@ -1,0 +1,18 @@
+
+//quando se assina um contrato de interface, não se usa extends, usa-se implements
+public class Cliente implements Autenticavel {
+	//obrigação implementar metodos da interface
+
+	@Override
+	public void setSenha(int senha) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean autentica(int senha) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+}

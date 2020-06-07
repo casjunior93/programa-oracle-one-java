@@ -1,0 +1,8 @@
+
+public class TestaCaracteres {
+	public static void main(String[] args) {
+		//guarda no formato unicode (numero)
+		char letra = 'a';
+		System.out.println(letra);
+	}
+}

@@ -1,0 +1,27 @@
+//gerente herda da classe funcionario
+public class Gerente extends Funcionario {
+	
+	private int senha;
+
+	public void setSenha(int senha) {
+		this.senha = senha;
+	}
+
+	public boolean autentica( int senha ) {
+		if (this.senha == senha) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	//public - modificador de visibilidade
+	//pode-se criar um get mesmo sem ter um atributo relacioado
+	public double getBonificacao() {
+		//reescrita de metodo da cl. mãe na classe filho
+		//precisa ver a classe mãe para encontrar o atributo
+		System.out.println("Gerente");
+		//return super.getBonificacao() + super.getSalario();
+		return super.getSalario();
+    }
+}

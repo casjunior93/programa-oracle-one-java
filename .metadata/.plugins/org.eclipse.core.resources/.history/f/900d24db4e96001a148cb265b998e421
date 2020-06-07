@@ -1,0 +1,20 @@
+
+public class TestaPontoFlutuante {
+	public static void main(String[] args) {
+		double salarioAbril;
+		salarioAbril = 1250.70;
+		
+		double salarioMaio;
+		salarioMaio = 1240.70;
+		
+		System.out.println("Meu salário de abril foi: " + salarioAbril);
+		System.out.println("Meu salário de maio foi: " + salarioMaio);
+		
+		double salarioSoma = salarioMaio + salarioAbril;
+		
+		System.out.println("A soma é: " + salarioSoma);
+		
+		double novaTentativa = 5.0/2;
+		System.out.println(novaTentativa);
+	}
+}

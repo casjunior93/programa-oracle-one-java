@@ -1,0 +1,21 @@
+//extendo a conta vc herda os atributos e métodos, mas não herda os construtores
+//por isso deve-se escrever o construtor
+public class ContaCorrente extends Conta {
+	
+	//construtor
+	public ContaCorrente(int agencia, int numero) {
+		//o construtor chama automaticamente o construtor da classe mãe
+		//é implicito
+		super(agencia, numero);
+	}
+	
+	//comportamento - ao sacar cobra uma taxa de 20 cents
+	//redefinir o comportamento do método saca da classe Conta
+	// escreve saca e Ctrl+espaco
+	@Override
+	public boolean saca(double valor) {
+		// TODO Auto-generated method stub
+		return super.saca(valor);
+	}
+	
+}

@@ -1,0 +1,5 @@
+
+//quando se assina um contrato de interface, não se usa extends, usa-se implements
+public class Cliente implements Autenticavel {
+	
+}

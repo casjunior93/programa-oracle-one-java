@@ -1,0 +1,6 @@
+//criando um funcionario
+public class Funcionario {
+	private String nome;
+	private Strinf cpf;
+	private String salario;
+}
