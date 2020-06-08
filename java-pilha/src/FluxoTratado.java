@@ -25,7 +25,7 @@ public class FluxoTratado {
             System.out.println(i);
 //            int a = 1/0;
             Conta c = null;
-            c.deposita();
+//            c.deposita();
             
 //            try {
 //            	int a = 1/0;

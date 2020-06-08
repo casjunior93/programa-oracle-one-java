@@ -1,0 +1,17 @@
+
+public class TestaContaComExceceoChecked {
+
+	public static void main(String[] args) {
+		
+		Conta c = new Conta();
+		//tem que tomar atitude com a excecao por que minhaexcecao é checked
+//		coloca-se try/catch
+		try {
+			c.deposita();
+		} catch(MinhaExcecao ex) {
+			System.out.println("Tratamento");
+		}
+
+	}
+
+}

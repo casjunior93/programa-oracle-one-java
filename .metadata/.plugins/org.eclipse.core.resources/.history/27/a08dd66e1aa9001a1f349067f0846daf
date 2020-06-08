@@ -1,0 +1,16 @@
+
+public class TesteConexao {
+
+	public static void main(String[] args) {
+		try {
+			//se vc abre uma conexao com o banco, deve fecha-la
+			Conexao con = new Conexao();
+			con.leDados();
+			con.fecha();
+		} catch(IllegalStateException ex) {
+			System.out.println("Erro conexao");
+		}
+
+	}
+
+}

@@ -1,30 +1,33 @@
 //
 public class Fluxo {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws MinhaExcecao{
         System.out.println("Ini do main");
         metodo1();
         System.out.println("Fim do main");
     }
 
     //Para chamar um método que não tem uma referência em mãos ou um objeto criado, ele precisa ser static.
-    private static void metodo1() {
+    private static void metodo1(){
         System.out.println("Ini do metodo1");
-         try {
+         try { 
          	metodo2();			
-		} catch (ArithmeticException | NullPointerException ex) {
+//		} catch (ArithmeticException | NullPointerException | MinhaExcecao ex) {
+         	//pega qualquer excecao
+        } catch (Exception ex) {
 			String msg = ex.getMessage();
 			System.out.println("Exception: " + msg);
-			ex.printStackTrace();
+//			ex.printStackTrace();
 		}
         System.out.println("Fim do metodo1");
     }
 
-    private static void metodo2() {
+    //checked - erro verificado pelo compilador 
+    private static void metodo2() throws MinhaExcecao {
         System.out.println("Ini do metodo2");
         
 //        ArithmeticException execption = new ArithmeticException("Deu errado");
-        throw new ArithmeticException("Deu errado!");
+        throw new ArithmeticException("Minha exceção arit!");
         
 //        System.out.println("Fim do metodo2");
     }

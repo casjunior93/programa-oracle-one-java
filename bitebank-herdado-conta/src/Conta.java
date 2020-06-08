@@ -33,26 +33,19 @@ public abstract class Conta{
 	}
 	
 	//retorna algo
-	public boolean saca(double valor) {
+	public void saca(double valor) throws SaldoInsuficienteExcecao{
 		//se o saldo desta conta
-		if(this.saldo >= valor) {
-			this.saldo -= valor;
-			return true;
-		} else {
-			System.out.println("Não tem dinheiro para sacar");
-			return false;
+		if(this.saldo < valor) {
+			throw new SaldoInsuficienteExcecao("Saldo: " + this.saldo + ", Valor: " + valor);
 		}
+		
+		this.saldo -= valor;
 	}
 	
 	//recebe Conta que é tipo genérico
-	public boolean transfere(double valor, Conta destino) {
-		if(this.saca(valor)) {
-    		destino.deposita(valor);
-    		return true;
-		} else {
-			System.out.println("Sem saldo pra transferir");			
-    		return false;
-		}
+	public void transfere(double valor, Conta destino) throws SaldoInsuficienteExcecao{
+		this.saca(valor);
+		destino.deposita(valor);
 	}
 	
 	//metodo getter - pegar algo privado

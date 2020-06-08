@@ -1,7 +1,7 @@
 
 public class TesteContas {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws SaldoInsuficienteExcecao{
 		// Criando objetos
 		
 		ContaCorrente cc = new ContaCorrente(111, 111);
