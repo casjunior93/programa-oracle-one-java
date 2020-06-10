@@ -12,10 +12,22 @@
 <fullyQualifiedTypeName name="Cliente"/>
 <fullyQualifiedTypeName name="AutenticacaoUtil"/>
 <fullyQualifiedTypeName name="Tributavel"/>
-<fullyQualifiedTypeName name="ContaCorrente"/>
 <fullyQualifiedTypeName name="SeguroVida"/>
 <fullyQualifiedTypeName name="CalculadorImposto"/>
-<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
 <fullyQualifiedTypeName name="Conta"/>
+<fullyQualifiedTypeName name="MinhaExcecao"/>
 <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="ContaCorrente"/>
+<fullyQualifiedTypeName name="SaldoInsuficienteExcecao"/>
+<fullyQualifiedTypeName name="Conexao"/>
+<fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
+<fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
+<fullyQualifiedTypeName name="modelo.SeguroVida"/>
+<fullyQualifiedTypeName name="modelo.ContaCorrente"/>
+<fullyQualifiedTypeName name="br.com.bitebank.banco.modelo.SaldoInsuficienteExcecao"/>
+<fullyQualifiedTypeName name="br.com.bitebank.banco.modelo.ContaCorrente"/>
+<fullyQualifiedTypeName name="br.com.bitebank.banco.modelo.ContaPoupanca"/>
+<fullyQualifiedTypeName name="br.com.bitebank.banco.especial.ContaEspecial"/>
 </qualifiedTypeNameHistroy>

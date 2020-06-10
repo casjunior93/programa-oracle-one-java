@@ -1,0 +1,7 @@
+package br.com.bitebank.banco.especial;
+
+import br.com.bitebank.banco.modelo.Conta;
+
+public class ContaEspecial extends Conta {
+
+}

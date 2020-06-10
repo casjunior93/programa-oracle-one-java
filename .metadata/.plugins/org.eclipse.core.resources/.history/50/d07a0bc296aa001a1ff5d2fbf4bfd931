@@ -1,0 +1,8 @@
+package br.com.javadoc.conhecendoJavadoc;
+
+
+
+public interface Tributavel {
+
+	double getValorImposto();
+}

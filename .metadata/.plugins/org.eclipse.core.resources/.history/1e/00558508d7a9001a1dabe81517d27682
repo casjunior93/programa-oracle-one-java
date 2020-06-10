@@ -1,0 +1,18 @@
+package br.com.bitebank.banco.teste;
+
+public class TesteTributaveis {
+
+	public static void main(String[] args) {
+		br.com.bitebank.banco.modelo.ContaCorrente cc = new br.com.bitebank.banco.modelo.ContaCorrente(222, 333);
+		cc.deposita(100.00);
+		
+		modelo.SeguroVida sv = new modelo.SeguroVida();
+		
+		modelo.CalculadorImposto ci = new modelo.CalculadorImposto();
+		ci.registra(cc);
+		ci.registra(sv);
+		
+		System.out.println(ci.getTotalImposto());
+	}
+
+}
