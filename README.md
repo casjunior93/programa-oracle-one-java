@@ -1,5 +1,5 @@
 # programa-oracle-one-java
-Repositório onde estão salvos os arquivos gerados durante a Formação Oracle ONE.
+Repositório onde estão salvos os arquivos gerados durante a Formação Oracle ONE: Java.
 
 Tópicos estudados até o momento (06/06/2020):
 
