@@ -1,5 +1,6 @@
 package br.com.bitebank.banco.teste;
 
+import br.com.bitebank.banco.especial.ContaEspecial;
 //importando pacotes necessários para a classe
 import br.com.bitebank.banco.modelo.ContaCorrente;
 import br.com.bitebank.banco.modelo.ContaPoupanca;
