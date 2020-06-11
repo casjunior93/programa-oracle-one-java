@@ -1,0 +1,14 @@
+package br.com.bitebank.banco;
+
+public class TesteString {
+	public static void main(String[] args) {
+		//strings são objetos, mas não é necessario criar com new
+		//objeto literal
+		String nome = "Carlos";
+		String nome2 = new String("Carlos 2");
+		
+		nome.replace(s, $);
+		
+		System.out.println(nome);
+	}
+}
