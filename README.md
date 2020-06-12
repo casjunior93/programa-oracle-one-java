@@ -2,7 +2,7 @@
 
 Repositório onde estão salvos os arquivos gerados durante a Formação Oracle ONE: Java.
 
-Tópicos estudados até o momento (06/06/2020):
+Tópicos estudados:
 
 -Orientação à objetos
 
