@@ -1,0 +1,12 @@
+package br.com.bytebank.banco.test;
+
+import br.com.bytebank.banco.modelo.ContaCorrente;
+
+public class TesteArrayReferencias {
+	//Porque iniciar um rray de referencias?
+	//Para nos preparar quando existir a possibilidade de aramzenar diversas contas
+	public static void main(String[] args) {
+		//vamos armazenar 10 contas correntes
+		ContaCorrente[]contas = new ContaCorrente(22, 13);
+	}
+}

@@ -1,0 +1,10 @@
+package br.com.bytebank.banco.test;
+
+public class Teste {
+	
+	//O que são os colchetes em main?
+	public static void main(String[] args) {
+		
+	}
+	
+}

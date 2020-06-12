@@ -1,0 +1,32 @@
+package br.com.bytebank.banco.test;
+
+public class Teste {
+	
+	//O que são os colchetes em main?
+	public static void main(String[] args) {
+		int[]idades = new int[5]; //inicializa o array com os valores padroes
+		String[]nomes = new String[3];
+
+        //preenche o array
+		for(int i = 0; i < idades.length; i++) {
+            idades[i] = i * i;
+        }
+
+		//imprime os dados do array
+        for(int i = 0; i < idades.length; i++) {
+            System.out.println(idades[i]);
+        }
+        
+        
+        //preenchendo array nomes
+        nomes[0] = "Carlos";
+        nomes[1] = "Isaac";
+        nomes[2] = "Rosi";
+        
+        //imprimindo os nomes
+        for(int i = 0; i < nomes.length; i++) {
+        	System.out.println(nomes[1]);
+        }
+	}
+	
+}

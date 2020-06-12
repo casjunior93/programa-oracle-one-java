@@ -1,0 +1,16 @@
+package br.com.bytebank.banco.modelo;
+
+public class GuardadorDeContas {
+	
+	//temos um array
+	private Conta[] referencias;
+	
+	//e um construtor
+	public GuardadorDeContas() {
+		this.referencias = new Conta[10];
+	}
+	
+	//tem que receber uma referencia do tipo conta
+	public void adiciona(Conta ref);
+
+}

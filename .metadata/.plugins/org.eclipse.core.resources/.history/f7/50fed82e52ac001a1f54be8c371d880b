@@ -1,0 +1,22 @@
+package br.com.bytebank.banco.modelo;
+
+public class GuardadorDeContas {
+	
+	//temos um array
+	private Conta[] referencias;
+	//variavel para guardar posicao percorrida
+	private int posicaoLivre;
+	
+	//e um construtor
+	public GuardadorDeContas() {
+		this.referencias = new Conta[10];
+		this.posicaoLivre = 0;
+	}
+	
+	//tem que receber uma referencia do tipo conta
+	public void adiciona(Conta ref) {
+		this.referencias[this.posicaoLivre] = ref;
+		this.posicaoLivre++;
+	}
+
+}
