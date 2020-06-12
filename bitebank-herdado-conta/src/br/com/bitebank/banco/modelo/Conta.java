@@ -19,10 +19,10 @@ public abstract class Conta{
 	
 	public Conta(int agencia, int numero) {
 		Conta.total ++;
-		System.out.println("O total de contas é: " + Conta.total);
+//		System.out.println("O total de contas é: " + Conta.total);
 		this.agencia = agencia;
 		this.numero = numero;
-		System.out.println("Criação de conta");
+//		System.out.println("Criação de conta");
 	}
 	
 	//comportamentos - maneiras de depositar dinheiro na conta
@@ -88,6 +88,12 @@ public abstract class Conta{
 	
 	public static int getTotal() {
 		return Conta.total;
+	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Numero: " + this.numero + ", Ag^ncia: " + this.agencia;
 	}
 }
 

@@ -30,4 +30,6 @@
 <fullyQualifiedTypeName name="br.com.bitebank.banco.modelo.ContaCorrente"/>
 <fullyQualifiedTypeName name="br.com.bitebank.banco.modelo.ContaPoupanca"/>
 <fullyQualifiedTypeName name="br.com.bitebank.banco.especial.ContaEspecial"/>
+<fullyQualifiedTypeName name="br.com.javadoc.conhecendoJavadoc.Conta"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

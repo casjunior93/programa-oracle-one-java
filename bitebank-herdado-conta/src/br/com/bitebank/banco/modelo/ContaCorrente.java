@@ -26,4 +26,13 @@ public class ContaCorrente extends Conta implements Tributavel {
 		return super.getSaldo() * 0.01;
 	}
 	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		//não queremos chamar o metoda da classe mãe, queremos dar outro significado
+		//return super.toString(); retorno da classe mãe
+		//vamos retornar uma informação que faça sentido
+		return "ContaCorrente. " + super.toString(); // getNumero() da classe conta
+	}
+	
 }
