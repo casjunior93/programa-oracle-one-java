@@ -27,9 +27,17 @@
 <fullyQualifiedTypeName name="modelo.SeguroVida"/>
 <fullyQualifiedTypeName name="modelo.ContaCorrente"/>
 <fullyQualifiedTypeName name="br.com.bitebank.banco.modelo.SaldoInsuficienteExcecao"/>
-<fullyQualifiedTypeName name="br.com.bitebank.banco.modelo.ContaCorrente"/>
-<fullyQualifiedTypeName name="br.com.bitebank.banco.modelo.ContaPoupanca"/>
 <fullyQualifiedTypeName name="br.com.bitebank.banco.especial.ContaEspecial"/>
 <fullyQualifiedTypeName name="br.com.javadoc.conhecendoJavadoc.Conta"/>
+<fullyQualifiedTypeName name="br.com.bitebank.banco.modelo.ContaCorrente"/>
+<fullyQualifiedTypeName name="br.com.bitebank.banco.modelo.ContaPoupanca"/>
+<fullyQualifiedTypeName name="br.com.bitebank.banco.modelo.Cliente"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.GuardadorDeContas"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaPoupanca"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Conta"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Cliente"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaCorrente"/>
 </qualifiedTypeNameHistroy>
